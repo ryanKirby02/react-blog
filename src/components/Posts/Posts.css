@@ -1,4 +1,13 @@
 .posts {
-    flex: 9;
-    
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.posts-title {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lora', serif;
+  color: #444
 }

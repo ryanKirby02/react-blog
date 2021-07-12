@@ -27,6 +27,11 @@
   margin-right: 10px;
   color: #444;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-icon:hover {
+  color: #be9656;
 }
 
 .profile-image {
@@ -49,11 +54,21 @@
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav-link-item:hover {
+  color: #be9656;
 }
 
 .search-icon {
-    font-size: 18px;
-    color: #666;
-    cursor: pointer;
-    margin-left: 15px;
+  font-size: 18px;
+  color: #666;
+  cursor: pointer;
+  margin-left: 15px;
+  transition: 0.3s;
+}
+
+.search-icon:hover {
+  color: #be9656;
 }
