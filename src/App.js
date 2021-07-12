@@ -1,11 +1,12 @@
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar";
+import HomePage from "./Pages/HomePage";
 
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <h1>blog app</h1>
+      <HomePage />
     </>
   );
 }
